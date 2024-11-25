@@ -1,0 +1,41 @@
+/* Estilos específicos para el componente Tienda.js */
+
+/* Estilo para el contenedor de productos */
+.producto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Estilo para cada tarjeta de producto */
+  .producto-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s ease;
+  }
+  
+  .producto-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .producto-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .producto-card h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .producto-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  

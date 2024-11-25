@@ -1,0 +1,14 @@
+.boton-añadir-carrito {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .boton-añadir-carrito:hover {
+    background-color: #0056b3;
+  }
+  
